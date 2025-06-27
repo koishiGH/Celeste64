@@ -98,7 +98,7 @@ public class ControlsConfig
 	{
 		Actions = new() {
 			["Jump"] = [
-				new(Keys.C),
+				new(Keys.Z),
 				new(Buttons.South),
 				new(Buttons.North),
 			],
@@ -108,7 +108,7 @@ public class ControlsConfig
 				new(Buttons.East),
 			],
 			["Climb"] = [
-				new(Keys.Z),new(Keys.V),new(Keys.LeftShift),new(Keys.RightShift),
+				new(Keys.C),new(Keys.V),new(Keys.LeftShift),new(Keys.RightShift),
 				new(Axes.LeftTrigger, 0.4f, false),
 				new(Axes.RightTrigger, 0.4f, false),
 			],
@@ -121,7 +121,7 @@ public class ControlsConfig
 				new(Buttons.RightShoulder),
 			],
 			["Confirm"] = [
-				new(Keys.C),
+				new(Keys.Z),
 				new(Buttons.South) { NotFor = Gamepads.Nintendo },
 				new(Buttons.East) { OnlyFor = Gamepads.Nintendo },
 			],
